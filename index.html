@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NLF</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <div class="logo">
+                <img src="Ves-logo.png" alt="">
+            </div>
+
+            <div class="head">
+                <h1>Vivekanand Education Society's</h1>
+            <h2>College of Law,</h2>
+            <h2>1st National Law Fest 2023-24</h2>
+            <h2 style="margin-top: 10px;"><span id="datetime"></span> <input type="text" name="" id="" class="round"> </h2>
+            </div>
+
+        </div>
+
+        <div class="courtRoom">
+            <div class="toproom">
+                <div class="box1">
+                    <div class="head2">
+                        <h2>Court Room - 1</h2>
+                    </div>
+                    <div class="bottom2">
+                        <div class="contestant">
+                            <h2>Petitioner : </h2>
+                            <h2>Respondent :</h2>
+                        </div>
+                        <div class="team">
+                            <input type="text" name="" id="">
+                            <input type="text" name="" id="">
+                        </div>
+                        <div class="speaker">
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                            <h3>Next Match : <input type="text" name="" id="" class="nextteam"></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="head2">
+                        <h2>Court Room - 1</h2>
+                    </div>
+                    <div class="bottom2">
+                        <div class="contestant">
+                            <h2>Petitioner : </h2>
+                            <h2>Respondent :</h2>
+                        </div>
+                        <div class="team">
+                            <input type="text" name="" id="">
+                            <input type="text" name="" id="">
+                        </div>
+                        <div class="speaker">
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                            <h3>Next Match : <input type="text" name="" id="" class="nextteam"></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottomroom">
+                <div class="box1">
+                    <div class="head2">
+                        <h2>Court Room - 1</h2>
+                    </div>
+                    <div class="bottom2">
+                        <div class="contestant">
+                            <h2>Petitioner : </h2>
+                            <h2>Respondent :</h2>
+                        </div>
+                        <div class="team">
+                            <input type="text" name="" id="">
+                            <input type="text" name="" id="">
+                        </div>
+                        <div class="speaker">
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                            <h3>Next Match : <input type="text" name="" id="" class="nextteam"></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="head2">
+                        <h2>Court Room - 1</h2>
+                    </div>
+                    <div class="bottom2">
+                        <div class="contestant">
+                            <h2>Petitioner : </h2>
+                            <h2>Respondent :</h2>
+                        </div>
+                        <div class="team">
+                            <input type="text" name="" id="">
+                            <input type="text" name="" id="">
+                        </div>
+                        <div class="speaker">
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                            <h3>Next Match : <input type="text" name="" id="" class="nextteam"></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        // create a function to update the live time
+        function updateLiveTime() {
+          // create a new `Date` object
+          const now = new Date();
+      
+          // get the current time as a string (hh:mm:ss format)
+          const currentTime = now.toLocaleTimeString();
+      
+          // update the `textContent` property of the `span` element with the `id` of `datetime`
+          document.querySelector('#datetime').textContent = currentTime;
+        }
+      
+        // call the `updateLiveTime` function every second
+        setInterval(updateLiveTime, 1000);
+      </script>
+      
+</body>
+</html>
